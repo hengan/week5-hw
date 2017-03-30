@@ -1,0 +1,717 @@
+﻿@media screen and ( min-width: 1024px ){
+#wrapper
+{
+  width:1024px;
+  height: 2000px;
+  margin:0 auto;
+  font-size:13px;
+}
+#logo
+{
+  height: 60px;
+  width: 72px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+#header
+{
+    
+    height:60px;
+    width: 1024px;
+    margin: 0px auto;
+    margin-top: 10px;
+    
+
+} 
+/*#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 1024px;
+    height: 60px;
+
+} */
+nav {  
+    width: 1024px;  
+    margin: 0 auto;  
+    height:60px;
+} 
+nav a {
+  text-decoration: none;
+  color: #4673FF;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: #fff;
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0);
+    color: #FFE29C;
+
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+    border-radius: 10px;
+}
+
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+
+
+
+#toppic
+{
+  background-color:purple;
+    width:1024px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+
+#footer{
+
+background-color:#39C957;
+height:40px;
+
+
+text-align:right;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+vertical-align:middle;
+}
+
+
+#land
+{
+  width:1024px;
+  height:400px;
+  line-height: 400px;
+  
+  
+}
+#gee
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+  
+  vertical-align: middle;
+}
+#geetext
+{
+ width:584px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+#animal
+{
+  width:1024px;
+  height:540px;
+  line-height: 540px;
+  
+  background-color:#fff;
+  
+}
+#ani
+{
+ width:420px;
+  height:540px;
+  margin-right: 10px;
+  float: right;
+  
+  vertical-align: middle;
+}
+#anitext
+{
+ width:584px;
+  height:540px;
+  line-height: 30px;
+  margin-left: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  
+  
+}
+#plant
+{
+  width:1024px;
+  height:400px;
+  line-height: 400px;
+  background-color:#fff;
+}
+#plantplant
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+
+  
+
+}
+#planttext
+{
+ width:584px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+
+#bottompic
+{
+  background-color:purple;
+    width:1024px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 1024px ) and (min-width: 768px){
+#wrapper
+{
+  width:1024px;
+  height: 2000px;
+  margin:0 auto;
+  font-size:13px;
+}
+#logo
+{
+  height: 60px;
+  width: 72px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+#header
+{
+    
+    height:60px;
+    width: 768px;
+    margin: 0px auto;
+    margin-top: 10px;
+    
+
+} 
+/*#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 1024px;
+    height: 60px;
+
+} */
+nav {  
+    width: 740px;  
+    margin: 0 auto;  
+    height:60px;
+    margin-left: 20px;
+} 
+nav a {
+  text-decoration: none;
+  color: #4673FF;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: #fff;
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0);
+    color: #FFE29C;
+
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+    border-radius: 10px;
+}
+
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+
+
+
+#toppic
+{
+  background-color:purple;
+    width:740px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+
+#footer{
+
+background-color:#39C957;
+height:40px;
+
+
+text-align:right;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+vertical-align:middle;
+width:740px;
+margin-left: 20px;
+
+}
+
+
+#land
+{
+  width:740px;
+  height:400px;
+  line-height: 400px;
+  
+  
+}
+#gee
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+  
+  vertical-align: middle;
+}
+#geetext
+{
+ width:300px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+#animal
+{
+  width:740px;
+  height:980px;
+  line-height: 540px;
+  
+  background-color:#fff;
+  
+}
+#ani
+{
+ width:420px;
+  height:540px;
+  margin-right: 10px;
+  float: right;
+  
+  vertical-align: middle;
+}
+#anitext
+{
+ width:300px;
+  height:1500px;
+  line-height: 30px;
+  margin-left: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  
+  
+}
+#plant
+{
+  margin-top:20px;
+  width:740px;
+  height:400px;
+  line-height: 400px;
+  background-color:#fff;
+}
+#plantplant
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+
+  
+
+}
+#planttext
+{
+ width:300px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+
+#bottompic
+{
+  background-color:purple;
+    width:740px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 768px ){
+#wrapper
+{
+  width:1024px;
+  height: 2000px;
+  margin:0 auto;
+  font-size:13px;
+}
+#logo
+{
+  height: 60px;
+  width: 72px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+#header
+{
+    
+    height:60px;
+    width: 768px;
+    margin: 0px auto;
+    margin-top: 10px;
+    
+
+} 
+/*#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 1024px;
+    height: 60px;
+
+} */
+nav {  
+    width: 740px;  
+    margin: 0 auto;  
+    height:60px;
+    margin-left: 20px;
+} 
+nav a {
+  text-decoration: none;
+  color: #4673FF;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: #fff;
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0);
+    color: #FFE29C;
+
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+    border-radius: 10px;
+}
+
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+
+
+
+#toppic
+{
+  background-color:purple;
+    width:740px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+
+#footer{
+
+background-color:#39C957;
+height:40px;
+
+
+text-align:right;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+vertical-align:middle;
+width:740px;
+margin-left: 20px;
+
+}
+
+
+#land
+{
+  width:740px;
+  height:400px;
+  line-height: 400px;
+  
+  
+}
+#gee
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+  
+  vertical-align: middle;
+}
+#geetext
+{
+ width:300px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+#animal
+{
+  width:740px;
+  height:980px;
+  line-height: 540px;
+  
+  background-color:#fff;
+  
+}
+#ani
+{
+ width:420px;
+  height:540px;
+  margin-right: 10px;
+  float: right;
+  
+  vertical-align: middle;
+}
+#anitext
+{
+ width:300px;
+  height:1500px;
+  line-height: 30px;
+  margin-left: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  
+  
+}
+#plant
+{
+  margin-top:20px;
+  width:740px;
+  height:400px;
+  line-height: 400px;
+  background-color:#fff;
+}
+#plantplant
+{
+ width:420px;
+  height:400px;
+  margin-right: 10px;
+  float: left;
+
+  
+
+}
+#planttext
+{
+ width:300px;
+  height:400px;
+  line-height: 32px;
+  margin-right: 10px;
+  text-align:justify;
+  font-size: 18px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  float: left;
+  
+}
+
+#bottompic
+{
+  background-color:purple;
+    width:740px;
+    height:200px;    
+    line-height:200px;
+    
+    /*margin-top: 10px;*/
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
