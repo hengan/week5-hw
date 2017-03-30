@@ -1,22 +1,30 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 var fs = require('fs');
+var page1 = fs.readFileSync(__dirname + '/index.html','utf8');
+var page2 = fs.readFileSync(__dirname + '/war.html','utf8');
+var page3 = fs.readFileSync(__dirname + '/404error.html','utf8');
 
-http.createServer(function(req,res){
+var port = process.env.PORT || 3000;
 
-    if(req.url === '/'){
-        fs.creatReadStream(_dirname + '/index.html').pipe(res);
-    }
+app.get('/', function(req, res) {
+	res.send(page1);
+});
 
-    else if(req.url === '/about'){
-        fs.creatReadStream(_dirname + '/yang.html').pipe(res);
+app.get('/index.html', function(req, res) {
+	res.send(page1);
+});
 
-    }
+app.get('/war.html', function(req, res) {
+	res.send(page2);
+});
 
-    else{
-        res.writeHead(404,{'Content-Type':'text/html'});
-        var error = fs.readFileSync(_dirname + '/404page.html','utf8');
-        res.end(error);
-    }
-    
 
-}).listen(3000,'127.0.0.1');
+
+app.get('*', function(req, res) {
+	res.send(page3);
+});
+
+
+
+app.listen(port);
